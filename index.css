@@ -1,0 +1,178 @@
+body {
+  padding: 100px 30px 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.keyboard {
+  background: #3c3939f7;
+  width: 1033px;
+  margin: 0 auto;
+  color: #555;
+  padding: 10px;
+}
+
+.keyboard-inner {
+  display: flex;
+}
+
+.keyboard-left {
+  width: 842px;
+}
+
+.keyboard-right {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.keyboard-right .keycap {
+  padding-left: 3px;
+}
+
+.row {
+  display: flex;
+}
+
+.row--f-keys {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.row--arrows {
+  position: relative;
+}
+
+.f-keys {
+  margin: auto 19px;
+}
+
+.f-keys--last {
+  margin-right: 10px;
+}
+
+.key {
+  width: 40px;
+  height: 45px;
+  margin: 1px;
+  border-width: 3px 7px 10px;
+  border-style: solid;
+  border-radius: 4px;
+  float: left;
+}
+
+.keycap {
+  width: 33px;
+  height: 40px;
+  padding: 5px 0 0 7px;
+  border-radius: 4px;
+}
+
+.keycap--s {
+  font-size: 12px;
+  padding-left: 3px;
+}
+
+/* Colours */
+
+.key--pink {
+  background: #DCA4B0;
+  border-color: #fbe1e6 #e4acb9 #cc98a4;
+}
+
+.key--black {
+  background: #333333;
+  border-color: #4D4D4D #272727 #1A1A1A;
+}
+
+.keycap--black {
+  color: #848383;
+  background-color: #333333;
+}
+
+.keycap--pink {
+  background: #FBBBC9;
+}
+
+/* Special keys */
+
+.key--escape {
+  margin-right: 10px
+}
+
+.key--bkspace {
+  width: 85px;
+}
+
+.key--arrow-up {
+  position: absolute;
+  top: -60px;
+  right: 78px;
+}
+
+.key--spacebar {
+  width: 328px;
+  border-width: 3px 8px 10px;
+}
+
+.keycap--spacebar  {
+  width: 325px;
+}
+
+.key-enter--top {
+  width: 60px;
+  border-right-width: 9px;
+  height: 45px;
+}
+
+.key-enter--bottom {
+  border-top: none;
+  border-radius: 17px 4px 4px 4px;
+  margin-top: -13px;
+  height: 62px
+}
+
+.keycap-enter--top {
+  border-bottom-right-radius: 0;
+}
+
+.keycap-enter--bottom {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 55px;
+}
+
+/* Sizes */
+
+.key--m {
+  width: 62px;
+  border-right-width: 10px;
+}
+
+.key--l {
+  width: 87px;
+}
+
+.key--xl {
+  width: 118px;
+}
+
+.keycap--m {
+  width: 59px;
+  height: 40px;
+}
+
+.keycap--l {
+  width: 84px;
+}
+
+.keycap--xl {
+  width: 115px;
+}
+
+.font-s {
+  font-size: 12px;
+}
