@@ -69,11 +69,18 @@ body {
   height: 40px;
   padding: 5px 0 0 7px;
   border-radius: 4px;
+  position: relative;
 }
 
 .keycap--s {
   font-size: 12px;
   padding-left: 3px;
+}
+
+.keycap-inner {
+  position: absolute;
+  top: 18px;
+  right: 12px
 }
 
 /* Colours */
